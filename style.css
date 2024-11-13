@@ -1,0 +1,16 @@
+body{
+      background: linear-gradient(
+    90deg,
+    #adb5bd 40%,
+    white 100%
+  );
+
+}
+
+.nav-link-box{
+      padding: 20px;
+}
+
+.nav-link-box:hover{
+      background-color: gray;
+}
