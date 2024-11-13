@@ -11,12 +11,35 @@ body {
   border-radius: 10px;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "Paprika", system-ui;
 }
 
 p {
   font-family: "Abhaya Libre", serif;
+  font-size: 1.5em;
   font-weight: 400;
   font-style: normal;
+  text-align: justify;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.img-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.img-grid div{
+  display: flex;
+  justify-content: center;
+}
+
+div.central-img,img-container{
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
 }
