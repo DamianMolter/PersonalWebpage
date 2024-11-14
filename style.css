@@ -2,9 +2,12 @@ body {
   background: linear-gradient(90deg, #adb5bd 40%, white 100%);
 }
 
-.nav-link-box {
+.nav-link-box, .dropdown-item {
   padding: 20px;
+  font-size: 1.2em;;
 }
+
+
 
 .nav-link-box:hover {
   background-color: #6c757d;
@@ -17,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 400;
   font-style: normal;
   text-align: justify;
