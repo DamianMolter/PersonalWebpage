@@ -43,3 +43,18 @@ div.central-img,img-container{
   display: flex;
   justify-content: center;
 }
+
+#mobile-menu{
+  display: none;
+}
+
+@media (max-width: 992px) {
+  #mobile-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  #desktop-menu ul{
+    display:none;
+  }
+}
